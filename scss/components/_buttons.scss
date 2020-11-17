@@ -1,0 +1,89 @@
+.home-head__button, .form-field__button, .button-create, .button-join, .button-delete {
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  text-align: center;
+  width: 209px;
+  padding: 10px 0;
+  color: $cta-color;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  border: 3px solid $cta-color;
+  cursor: pointer;
+
+  &--background {
+    background-color: $cta-color;
+    color: $white;
+    margin-right: 48px;
+  }
+
+  &--full {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  &--small {
+    margin-right: 0;
+    width: 100px;
+    padding: 3px 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  &--left {
+    margin-left: 0 !important;
+    width: 100px;
+    padding: 6px 0;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  &--comment {
+    width: 100px;
+    padding: 6px 0;
+  }
+
+  &--big {
+    padding: 3px 0;
+    margin-right: 0;
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  &--lessmargin {
+    margin-top: 0px;
+  }
+
+  &--grey {
+    background-color: $text-color-light;
+    margin-left: 20px;
+    border-color: $text-color-light;
+  }
+
+  &--user {
+    padding: 3px 0;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.like {
+  cursor: pointer;
+  border: 0;
+  color: $text-color-light;
+  background: none;
+  font-size: 16px;
+
+  i {
+    margin-right: 4px;
+  }
+}
